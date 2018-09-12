@@ -1,0 +1,32 @@
+<html>
+
+
+<head>
+<meta charset="utf-8" />
+<title> 간단한 웹 페이지 </title>
+
+<style>
+body { background-color : ddffaa; margin : 40px }
+hr{ height : 3px ; background-color : blue}
+span{ color : RED ; font-size : 18px }
+</style>
+
+</head>
+
+
+<body>
+
+<font color=FF8E99><h1> 간단한 웹 페이지 만들기 </h1></font>
+<hr><br>
+정재승 <span>아우내</span> 세미나 발표<p>
+※강남대학교 <a href=https://web.kangnam.ac.kr> 홈페이지<a> 접속하기<br><br><br>
+
+○ 노래<p>
+<audio src='/static/sound/music.wav' loop preload volume controls></audio><p><br>
+○ 슬픈개구리<p>
+<img src={{url_for('static', filename='sadFrog.jpg')}} width="400"/>
+
+</body>
+
+
+</html>
